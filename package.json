@@ -1,0 +1,23 @@
+{
+    "name": "next",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next",
+        "start": "next start",
+        "build": "next build && next export"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "classnames": "^2.2.6",
+        "next": "^9.0.1",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "react-redux": "^7.1.0",
+        "redux": "^4.0.4",
+        "redux-devtools-extension": "^2.13.8"
+    }
+}
