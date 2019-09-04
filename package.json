@@ -6,7 +6,8 @@
     "scripts": {
         "dev": "next",
         "start": "next start",
-        "build": "next build && next export"
+        "build": "next build",
+        "deploy": "next build && next export -o docs && touch docs/.nojekyll && git add docs -f && git commit -m'Deploy commit' && git push origin master"
     },
     "keywords": [],
     "author": "",
